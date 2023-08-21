@@ -18,3 +18,12 @@ Test #3: "It will add an instance of the location object to an instance of the p
 Code: placesGone.addLocations(locations);
 Expected Outcome: placesGone {locations}
 
+Describe: PlacesGone.prototype.assignId
+Test #4: It will assign a unique ID to a location"
+Code: locations.assignId();
+Expected Output: placesGone.locations[1];
+Locations {name: "pdx", landmark: "rose garden", season: "fall", id: 1}
+
+
+
+
