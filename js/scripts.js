@@ -16,7 +16,12 @@ PlacesGone.prototype.assignId = function() {
   return this.currentId;
 }
 
-
+PlacesGone.prototype.findLocations = function(id) {
+  if (this.locations[id] !== undefined) {
+    return this.locations[id];
+  }
+  return false;
+}
 
 
 // Locations Logic
