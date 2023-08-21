@@ -25,9 +25,18 @@ PlacesGone.prototype.findLocations = function(id) {
 
 
 // Locations Logic
-function Locations(name, landmark, season) {
+function Locations(name, landmark, season, restaurants) {
   this.name = name;
   this.landmark = landmark;
   this.season = season;
+  this.restaurants = restaurants;
+  }
+
+// Restaurants Logic
+
+function Restaurants(name, plate) {
+  this.name = name;
+  this.plate = plate;
 }
+
 
