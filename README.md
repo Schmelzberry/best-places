@@ -25,5 +25,8 @@ Expected Output: placesGone.locations[1];
 Locations {name: "pdx", landmark: "rose garden", season: "fall", id: 1}
 
 
-
+Describe: PlacesGone.prototype.findLocation
+Test #5: "It will find a location based on assigned ID value"
+Code: locations.findLocation(1);
+Expected Output: Locations {name: "pdx", landmark: "rose garden", season: "fall", id: 1} 
 

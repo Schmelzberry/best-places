@@ -17,6 +17,8 @@ PlacesGone.prototype.assignId = function() {
 }
 
 
+
+
 // Locations Logic
 function Locations(name, landmark, season) {
   this.name = name;
